@@ -1,0 +1,1307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ETIQUETAS GENERALES */
+body {
+    font-size: 90%;
+    font-family: 'Jost', sans-serif;
+}
+
+footer {
+    max-width: 95%;
+    background-color: #203d57;
+    margin-top: 0.5em;
+    border-radius: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 2em;
+    padding: .2em;
+}
+
+
+
+/* .CLASS */
+
+/* HEADER */
+
+.masInfo {
+    color: #fff;
+}
+
+.cabezera {
+    max-width: 100%;
+}
+
+.logoRF {
+    max-width: 85%;
+}
+
+.contenedorLogo {
+    text-align: center;
+    margin: 1%;
+}
+
+.contenedorMenu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorMenu a {
+    text-decoration: none;
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    display: block;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 3em;
+    padding-top: 5%;
+
+}
+
+.contenedorMenu a:hover {
+    background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 3em;
+}
+
+
+.contenedorMenu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    padding: 0.0em;
+    display: block;
+    width: 24%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.buscador {
+    max-width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ingresoDeDatos {
+    background-color: #e8eae9;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 2em;
+}
+
+.lupa {
+    background-color: #c3c0c0;
+    width: 2em;
+    height: 2em;
+    padding: 0.4em;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+}
+
+
+.imagenCovid {
+    width: 100%;
+    border-radius: 1em;
+}
+
+
+/* SECCIONES */
+
+.descEnf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.secciones1Enfermedades {
+
+    display: none;
+}
+
+.secciones2Enfermedades {
+    ;
+    width: 100%;
+    padding: 3%;
+    margin: 1%;
+    background-color: #e8eae9;
+    border-radius: 1em;
+}
+
+.hDeArticulosEnfermedadesCovid {
+    color: rgba(65, 109, 147, 1);
+    text-align: center;
+}
+
+.hDeArticulosEnfermedades {
+    color: rgba(65, 109, 147, 1);
+    text-align: center;
+
+}
+
+.pDeArticulos {
+    max-width: 100%;
+    padding: 3%;
+    margin: 1%;
+    background-color: #e8eae9;
+    border-radius: 1em;
+
+}
+
+.secciones3Enfermedades {
+    max-width: 100%;
+    padding: 3%;
+    margin: 1%;
+    background-color: #e8eae9;
+    border-radius: 1em;
+
+}
+
+.iconosSintomas {
+    width: 30%;
+    margin: 1%;
+
+}
+
+.nombre {
+    width: 100%;
+    font-size: 1em;
+
+
+}
+
+.apellido {
+    width: 100%;
+    font-size: 1em;
+
+
+}
+
+.dni {
+    width: 100%;
+    font-size: 1em;
+
+}
+
+.telefono {
+    width: 100%;
+    font-size: 1em;
+
+}
+
+.email {
+    width: 100%;
+    font-size: 1em;
+
+}
+
+.provincia {
+    width: 100%;
+    font-size: 1em;
+
+}
+
+.direccion {
+    width: 100%;
+    font-size: 1em;
+
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #007dc1;
+    border-radius: .5em;
+    border: 1px solid #124d77;
+    display: block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1em;
+    padding: .5em 1em;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    margin: 1em;
+    text-align: right;
+    width: 20%;
+    text-align: right;
+    margin-left: 100%
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a7;
+}
+
+.enviar {
+    width: 100%;
+    margin: auto;
+
+
+}
+
+#errorCheck{
+    color: red;
+    display: none;
+}
+
+#paises {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+
+}
+#otrospaises{
+    display: none;
+}
+
+#mensaje{
+    color: red;
+}
+
+#nombre {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+
+}
+
+#apellido {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+}
+
+#dni {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+}
+
+#telefono {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+}
+
+#correo {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+}
+
+#provincia {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+}
+
+
+#direccion {
+
+    display: none;
+}
+
+#direccionFormato {
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    border: 0;
+;
+}
+
+
+.tituloPrecauciones {
+    color: rgba(65, 109, 147, 1);
+    text-align: center;
+
+}
+
+.contenedorPrecauciones {
+    max-width: 100%;
+    padding: 3%;
+    margin: 1%;
+    background-color: #e8eae9;
+    border-radius: 1em;
+
+
+}
+
+.grillaPrecauiciones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.imgPrecaucion {
+    width: 100%;
+
+
+}
+
+.precaucion1 {
+    width: 25%;
+}
+
+.datoHospital {
+    font-size: 1em;
+    padding: 2%;
+    text-align: left
+}
+
+.fotoHospital {
+    margin: auto;
+
+    text-align: center
+}
+
+.hospital {
+    width: 95%;
+    border-radius: 1em;
+    margin: auto;
+}
+
+
+.tituloHospitales {
+    text-align: center;
+    font-size: 1.2em;
+    color: rgba(65, 109, 147, 1)
+}
+
+
+
+.mapaHospital {
+    max-width: 100%;
+    text-align: center;
+}
+
+.mapaGoogle {
+    width: 90%;
+    height: 30em;
+    border-radius: 1em;
+}
+
+/* FOOTER */
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+    display: none;
+}
+
+.footerMenu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+}
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8em;
+    color: #c7dff4;
+    padding: 5px 10px 10px 10px;
+    width: 100%;
+}
+
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    color: #69b1ef;
+    font-weight: 600;
+    height: 10px;
+    line-height: 15px;
+    margin-right: 10%;
+}
+
+.direccionFacebook {
+    color: #69b1ef;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    margin-right: 20%;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: .5em;
+}
+
+.contenedorMenuWeb {
+    display: none;
+}
+
+
+.buscadorEnfermedades {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #ede8e8;
+
+    border-radius: .5em;
+}
+
+
+.lupaEnfermedades {
+    background-color: #69b1ef;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+
+
+}
+
+.ingresoDeDatosEnfermedades {
+    height: 26px;
+    background-color: #e8eae9;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+}
+
+/* SECCIONES */
+
+. .pDeArticulos {
+    font-size: 1em;
+}
+
+.hDeArticulos {
+    font-size: 1.3em;
+}
+
+.encuesta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    font-size: 11px;
+    margin-top: .5em;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(../img/fondoTest.png);
+    background-size: cover;
+    background-color: #d4d8d6;
+
+}
+
+
+/* FOOTER */
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+    display: none;
+}
+
+.footerMenu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+}
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8em;
+    color: #c7dff4;
+    padding: 5px 10px 10px 10px;
+    width: 100%;
+}
+
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2em;
+    color: #69b1ef;
+    font-weight: 600;
+    height: 10px;
+    line-height: 15px;
+    margin-right: 10%;
+}
+
+.direccionFacebook {
+    color: #69b1ef;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-right: 20%;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: .5em;
+}
+
+.contenedorMenuWeb {
+    display: none;
+}
+
+
+/* MEDIAQUERY 47 -----------------------------------------*/
+
+@media screen and (min-width:47em) {
+
+    /* ETIQUETAS GENERALES*/
+    body,
+    header {
+        max-width: 100%;
+    }
+
+
+    /* HEADER */
+
+
+    .cabezera {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logoRF {
+        max-width: 100%;
+    }
+
+    .contenedorLogo {
+        text-align: center;
+        margin: 1%;
+        width: 20%;
+    }
+
+    .buscador {
+        max-width: 20%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .contenedorMenu {
+        display: none;
+    }
+
+    .contenedorMenuWeb {
+        display: flex;
+    }
+
+    .contenedorMenuWeb a {
+        text-decoration: none;
+        color: #69b1ef;
+        padding-top: 30%;
+        padding-bottom: 10%;
+        display: block;
+        width: 100%;
+    }
+
+    .contenedorMenuWeb a:hover {
+        background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+        color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    .enf {
+        background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.4), rgba(105, 177, 239, 0.0));
+        color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: block;
+        width: 100%;
+
+    }
+
+
+
+    .contenedorMenuWeb li {
+        list-style: none;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        font-size: 90%;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        display: block;
+        width: 100%;
+    }
+
+    .contenedorMenuWeb ul {
+        display: flex;
+        justify-content: center;
+        width: 30em;
+    }
+
+
+    /* SECCIONES */
+    .gradiente {
+        width: 100%;
+        height: 1em;
+        background: linear-gradient(to bottom, rgba(100, 100, 100, 1), rgba(255, 255, 255, 1));
+
+    }
+
+    .hospitalesEspecializados {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #69b1ef;
+        width: 95%;
+        border-radius: 20px;
+        margin: auto;
+
+    }
+
+
+    .tituloHospitales {
+        font-size: 1.5em;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+
+    .datoHospital {
+        font-size: 1em;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        width: 100%;
+        padding-left: 1.2em;
+
+
+
+    }
+
+    .fotoHospital {
+
+        width: 45%;
+
+
+    }
+
+    .mapaHospital {
+        width: 50%;
+        border-radius: 1em;
+
+
+    }
+
+    .hospital {
+        border-radius: 1em;
+        width: 90%
+    }
+
+    .mapaGoogle {
+        width: 100%;
+        padding-right: 2em;
+        box-sizing: border-box;
+        height: 25em;
+
+    }
+
+
+    .contenedorPrecauciones {
+        max-width: 100%;
+        padding: 1%;
+        margin: 1%;
+        background-color: #ffffff;
+        border-radius: 1em;
+
+
+
+    }
+
+    .imagenCovid {
+        width: 100%;
+        border-radius: 1em;
+    }
+
+
+    .descEnf {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 50%;
+
+
+    }
+
+    .colEnf {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-color: #e8eae9;
+        border-radius: 1em;
+        margin: .5em 1em;
+
+
+
+    }
+
+
+    .secciones2Enfermedades {
+        width: 100%;
+        text-align: justify;
+        font-family: 'Jost', sans-serif;
+
+
+
+    }
+
+    .secciones3Enfermedades {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 1.5% 2% 1% 0%;
+        text-align: justify;
+        font-family: 'Jost', sans-serif;
+
+    }
+
+    h3 {
+        font-size: 1em;
+        color: #3f719f;
+        font-family: 'Jost', sans-serif;
+        text-align: center;
+    }
+
+    .hDeArticulosEnfermedades {
+        font-size: 1.3em;
+        color: #3f719f;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .hDeArticulosEnfermedadesCovid {
+        font-size: 2em;
+        color: #3f719f;
+    }
+
+    .sintomas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    
+    .sintomasPreguntas{
+        width: 70%;
+    }
+
+    .iconosSintomas {
+        width: 30%;
+        margin: 0px 10px 0px 10px;
+        text-align: center;
+
+    }
+
+    .pDeArticulosEnfermedades {
+        font-size: .88em;
+        color: #2a445a;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .pDeArticulos {
+        font-size: 1em;
+        color: #2a445a;
+        font-family: 'Jost', sans-serif;
+    }
+
+    .contenedoraHeader {
+        display: flex;
+        height: 5em;
+    }
+
+    .encuesta {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+        font-size: 11px;
+        margin-top: .5em;
+        border-radius: 10px;
+        box-sizing: border-box;
+        background-image: url(../img/fondoTest.png);
+        background-size: cover;
+        background-color: #d4d8d6;
+
+    }
+
+
+    .nombre {
+        width: 47%;
+        font-size: 1em;
+        margin-right: 1em;
+
+    }
+
+    .apellido {
+        width: 47%;
+        font-size: 1em;
+
+    }
+
+    .columna {
+        display: block;
+        flex-direction: column;
+
+
+    }
+
+    .dni {
+        width: 35%;
+        font-size: 1em;
+        margin-right: 1em;
+
+    }
+
+    .telefono {
+        width: 30%;
+        font-size: 1em;
+        margin-right: 1em;
+
+    }
+
+    .provincia {
+        width: 25%;
+        font-size: 1em;
+
+    }
+
+    .sexo {
+        width: 20%;
+        font-size: 11px;
+
+    }
+
+    .viaje {
+        width: 20%;
+        font-size: 11px;
+
+    }
+
+    .myButton {
+        width: 93%;
+        font-size: 1em;
+        margin: 1em 0;
+        width: 20%;
+        text-align: right;
+        margin-left: 80%
+    }
+
+    .central {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+
+
+
+
+    }
+
+    .aSecciones {
+        text-decoration: none;
+    }
+
+
+
+
+    .secciones1 {
+        width: 25%;
+        background: linear-gradient(to bottom, rgba(105, 177, 239, 0.01), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 1%;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        margin-left: 150px;
+    }
+
+    .enfermedadesimagen {
+        width: 98.7%;
+        border-radius: 10px;
+    }
+
+
+    .ingresoDeDatos {
+        height: 26px;
+        background-color: #e8eae9;
+        border-bottom-left-radius: 10px;
+    }
+
+    . .myButton {
+        box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+        background-color: #007dc1;
+        border-radius: 10px;
+        border: 1px solid #124d77;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 13px;
+        padding: 6px 24px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #154682;
+        width: 50%;
+    }
+
+    .myButton:hover {
+        background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+        background-color: #0061a7;
+    }
+
+    .tituloPrecauciones {
+        font-size: 1.3em;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        text-align: center;
+        background-color: #69b1ef;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+
+    .grillaPrecauiciones {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .imgPrecaucion {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+    }
+    #mostrarCantidadSintomas{
+        font-size: 1.3em;
+        color: red;
+        
+    }
+    
+    #virusito{
+        font-size: 1.3em;
+        color: red;
+        display: none;
+    }
+    .precaucion1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 15%;
+        margin: 0 30px;
+
+    }
+    
+    #mensajeEnviado{
+        font-size: 1.3em;
+        color:forestgreen;
+    }
+
+    #nombre {
+        border-radius: 10px;
+    }
+
+    #apellido {
+        border-radius: 10px;
+    }
+
+    #dni {
+        border-radius: 10px;
+    }
+
+    #telefono {
+        border-radius: 10px;
+    }
+
+    #provincia {
+        border-radius: 10px;
+    }
+
+    #direccion {
+        border-radius: 10px;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    /* FOOTER */
+
+    .footerMenu {
+        font-family: 'Jost', sans-serif;
+        font-size: .8em;
+        padding: 1% 2%;
+        width: 20%;
+        display: flex;
+        text-align: center;
+    }
+
+    .footerMenu a {
+        text-decoration: none;
+        color: #69b1ef;
+    }
+
+    .footerMenu a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+
+    .redes {
+        width: 28%;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
+        height: 6em;
+        margin-left: 0;
+    }
+
+
+    .footerText {
+        font-family: 'Jost', sans-serif;
+        font-size: .8em;
+        color: #69b1ef;
+        padding: 1% 2%;
+        width: 40%;
+    }
+
+    .direccionFacebook {
+        color: #69b1ef;
+        font-weight: 500;
+        margin-left: 1em;
+        font-family: 'Jost', sans-serif;
+        height: .8em;
+        font-size: 1em;
+        line-height: 1em;
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .whattsap {
+        font-family: 'Jost', sans-serif;
+        font-size: 1em;
+        color: #69b1ef;
+        font-weight: 900;
+        margin-left: .8em;
+        height: .8em;
+        line-height: 1em;
+        width: 70%;
+        margin-right: 0;
+    }
+
+
+
+
+    .fab {
+        margin-left: 40%;
+    }
+
+    .logoFace {
+        width: 30%;
+    }
+
+    .logoWS {
+        width: 20%;
+    }
+
+
+    /* MEDIAQUERY 60 -----------------------------------------*/
+    @media screen and (min-width:60em) {
+
+        /* ETIQUETA GENERAL */
+
+        body,
+        header {
+            max-width: 100%;
+        }
+
+
+        .cabezera {
+            max-width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        /* HEADER */
+
+        .logoRF {
+            max-width: 100%;
+        }
+
+        .contenedorLogo {
+            text-align: center;
+            margin: 1%;
+            width: 20%;
+        }
+
+        .buscador {
+            max-width: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .lupa {
+            background-color: #c3c0c0;
+            width: 2em;
+            height: 2em;
+            padding: 0.4em;
+            box-sizing: border-box;
+            border-bottom-right-radius: 10px;
+        }
+
+        .contenedorMenu {
+            display: none;
+        }
+
+        .contenedorMenuWeb {
+            display: flex;
+        }
+
+        .contenedorMenuWeb a {
+            text-decoration: none;
+            color: #69b1ef;
+            padding-top: 30%;
+            padding-bottom: 10%;
+            display: block;
+            width: 100%;
+        }
+
+        .contenedorMenuWeb a:hover {
+            background-color: rgb(105, 177, 239);
+            color: #fff;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            display: block;
+            width: 100%;
+        }
+
+        .contenedorMenuWeb li {
+            list-style: none;
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            font-size: 100%;
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            display: block;
+            width: 100%;
+        }
+
+        .contenedorMenuWeb ul {
+            display: flex;
+            justify-content: center;
+            width: 40em;
+        }
+
+
+        .pDeArticulosEnfermedades {
+            font-size: 1.01em;
+            color: #2a445a;
+            font-family: 'Jost', sans-serif;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            max-width: 95%;
+            background-color: #203d57;
+            margin-top: 0.5em;
+            border-radius: 1em;
+            padding: 0.5em 5em;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .fab {
+            margin-left: 40%;
+        }

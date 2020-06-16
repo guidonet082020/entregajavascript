@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  
+    <script src="js/ocultarPaises.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jost:wght@900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/aacd14124a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>RauFer Viral Research</title>
+    <link rel="stylesheet" href="css/estiloECovid.css">
+    <link rel="shortcut icon" href="img/phpThumb_generated_thumbnailico" />
+</head>
+<header>
+    <section class="cabezera">
+        <div class="contenedorLogo">
+            <img class="logoRF" src="img/LOGO-RAUFER.png" alt="Logo RauFer">
+        </div>
+        <nav class="contenedorMenu">
+            <ul>
+                <li><a href="index.html"><img src="img/botonHome.png" alt=""></a></li>
+                <li><a href="enfermedades.html"><img src="img/botonVirus.png" alt=""></a></li>
+                <li><a href="hosptalesDisponibles.html"><img src="img/botonHospitales.png" alt=""></a></li>
+                <li><a href="contacto.html"><img src="img/botonContacto.png" alt=""></a></li>
+            </ul>
+        </nav>
+        <div class="contenedorMenuWeb">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class="enf"><a href="enfermedades.html">ENFERMEDADES</a></li>
+                <li class="hospDis"><a href="hosptalesDisponibles.html">HOSPITALES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div class="buscador">
+            <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+                <input type="text" id="buscador" name="buscador" placeholder=" Ingrese su Búsqueda" class="ingresoDeDatos">
+            </form>
+            <div class="lupa"> <i class="fas fa-search fa-lg"></i></div>
+        </div>
+    </section>
+</header>
+
+<body>
+    <div class="gradiente"></div>
+
+    <div class="colEnf">
+        <div class="descEnf">
+
+            <div class="secciones2Enfermedades">
+                <img src="img/covid19.png" alt="imagen Covid" class="imagenCovid">
+                <article class="aSecciones">
+                    <h2 class="hDeArticulosEnfermedadesCovid">Covid-19</h2>
+                    <p class="pDeArticulosEnfermedades">Los coronavirus son una familia de virus que se descubrió en la década de los 60 pero cuyo origen es todavía desconocido. Sus diferentes tipos provocan distintas enfermedades, desde un resfriado hasta un síndrome respiratorio grave (una forma grave de neumonía).
+
+                        Gran parte de los coronavirus no son peligrosos y se pueden tratar de forma eficaz. De hecho, la mayoría de las personas contraen en algún momento de su vida un coronavirus, generalmente durante su infancia. Aunque son más frecuentes en otoño o invierno, se pueden adquirir en cualquier época del año.
+                        El coronavirus debe su nombre al aspecto que presenta, ya que es muy parecido a una corona o un halo. Se trata de un tipo de virus presente sobre todo en los animales, pero también en los humanos.
+                        Coronavirus
+                        Ilustración realizada por los Centros para el Control y Prevención de Enfermedades (CDC) de Estados Unidos que muestra la morfología característica de los coronavirus.
+                        En los últimos años se han descrito tres brotes epidémicos importantes causados por nuevos coronavirus:
+                        Covid-19/ SARS-CoV-2: A finales de diciembre de 2019 se notificaron los primeros casos de un nuevo coronavirus en la ciudad de Wuhan (China). Desde entonces el aumento de nuevos infectados por el virus SARS-CoV-2 (inicialmente llamado 2019nCoV), que provoca la enfermedad denominada Covid-19, ha sido continuo y su transmisión de persona a persona se ha acelerado. Los casos declarados ya superan con creces a los de la epidemia de SARS de 2002-2003. Su tasa de letalidad es más baja, pero se están produciendo muchos más fallecimientos (rebasan los 100.000, según las cifras oficiales) porque las personas infectadas ya se cuentan por millones en todo el mundo.
+                        La Organización Mundial de la Salud (OMS) ha declarado la situación de pandemia. Hay personas infectadas en la mayoría de los países y los profesionales sanitarios insisten en la necesidad de seguir las medidas preventivas y evitar la alarma social.
+                    </p>
+                </article>
+            </div>
+        </div>
+        <article class="secciones3Enfermedades">
+            <h2 class="hDeArticulosEnfermedades">Formulario de detección (test) de <strong>Coronavirus (COVID19)</strong></h2>
+            <p class="pDeArticulos"><strong>“Hola usuario!</strong> Si tienes síntomas de Covid-19 o has estado en contacto
+                con una persona afectada deberías hacer un control y seguimiento diario de tus
+                síntomas.
+                Esta aplicación te permitirá hacer un seguimiento de la evolución de los
+                síntomas y te dará las indicaciones y consejos a seguir en cada caso.
+                El uso de este servicio supone la aceptación de los términos y la política de
+                privacidad descritos en 'Ver las condiciones y políticas'
+            </p>
+            <h3>Síntomas</h3>
+            <div class="sintomas">
+                <img src="img/24-fiebre-dolor-garganta.png" alt="fiebre-dolor-garganta" class="iconosSintomas">
+                <img src="img/25-fiebre-dificultad-respirar.png" alt="fiebre-dificultad-respirar" class="iconosSintomas">
+                <img src="img/23-fiebre-tos.png" alt="fiebre-tos" class="iconosSintomas">
+            </div>
+
+            <article class="fm">
+               
+               
+                <form action="#" onsubmit="return validar()"  class="formClase" name="formulario"  >
+                    <div class="encuesta">
+                        <div class="nombre">
+                            <label for="nombre">Nombre</label><br>
+                            <input type="text" id="nombre" name="nombre"></div>
+                        <div class="apellido">
+                            <label for="apellido">Apellido</label><br>
+                            <input type="text" id="apellido" name="apellido"></div>
+                        <div class="dni">
+                            <label for="dni">DNI</label>
+                            <input type="text" id="dni" size="10" maxlength="9" />
+                        </div>
+                        <div class="telefono">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" id="telefono" size="10" maxlength="9" />
+                        </div>
+                        <div class="provincia">
+                            <label for="provincia">Provincia</label><br>
+                            <select name="provincia" id="provincia" value="">
+                                <option value="" selected>...</option>
+                                <option value="BA">Buenos Aires</option>
+                                <option value="cata">Catamarca</option>
+                                <option value="chaco">Chaco</option>
+                                <option value="chubut">Chubut</option>
+                                <option value="cordoba">Córdoba</option>
+                                <option value="corrientes">Corrientes</option>
+                                <option value="entre rios">Entre Rios</option>
+                                <option value="formosa">Formosa</option>
+                                <option value="jujuy">Jujuy</option>
+                                <option value="la pampa">La Pampa</option>
+                                <option value="la rioja">La Rioja</option>
+                                <option value="mendoza">Mendoza</option>
+                                <option value="misiones">Misiones</option>
+                                 <option value="neuquen">Neuquen</option>
+                                <option value="rio negro">Rio Negro</option>
+                                <option value="salta">Salta</option>
+                                <option value="san juan">San Juan</option>
+                                <option value="san luis">San Luis</option>
+                                <option value="santa cruz">Santa Cruz</option>
+                                <option value="santa fe">Santa Fe</option>
+                                <option value="santiago del estero">Santiago del Estero</option>
+                                <option value="tierra del fuego">Tierra del Fuego</option>
+                                <option value="tucuman">Tucuman</option>
+                               
+
+
+                                </select>
+                                </div>
+
+                        <div class="sintomasPreguntas">
+                            <div class="sexo">
+                                <label for="">Sexo</label><br>
+
+                                <input type="radio" name="sexo" id="varon"> M <input type="radio" name="sexo" id="mujer"> F <br><br>
+                            </div>
+
+
+
+
+                            <label for="combo" id="radioButoonA">¿Has viajado al exterior de la Rep. Argentina?</label>
+                            Si <input type="radio" name="combo" value="si" id="siViaje" onchange="cambiar(), cambioRadio()">
+                            No <input type="radio" name="combo" value="no" id="noViaje" onchange="cambiar(), cambioRadio()"> <br>
+
+                            <div id="otrospaises" class="oculto">
+                                <label for="">Paises</label>
+                                <select class="paises" name="paises" id="paises" value="">
+                                    <option value="" selected>...</option>
+                                    <option value="AF">Afganistán</option>
+                                    <option value="AL">Albania</option>
+                                    <option value="DE">Alemania</option>
+                                    <option value="AD">Andorra</option>
+                                    <option value="AO">Angola</option>
+                                    <option value="AI">Anguilla</option>
+                                    <option value="AQ">Antártida</option>
+                                    <option value="AG">Antigua y Barbuda</option>
+                                    <option value="AN">Antillas Holandesas</option>
+                                    <option value="SA">Arabia Saudí</option>
+                                    <option value="DZ">Argelia</option>
+                                    <option value="AM">Armenia</option>
+                                    <option value="AW">Aruba</option>
+                                    <option value="AU">Australia</option>
+                                    <option value="AT">Austria</option>
+                                    <option value="AZ">Azerbaiyán</option>
+                                    <option value="BS">Bahamas</option>
+                                    <option value="BH">Bahrein</option>
+                                    <option value="BD">Bangladesh</option>
+                                    <option value="BB">Barbados</option>
+                                    <option value="BE">Bélgica</option>
+                                    <option value="BZ">Belice</option>
+                                    <option value="BJ">Benin</option>
+                                    <option value="BM">Bermudas</option>
+                                    <option value="BY">Bielorrusia</option>
+                                    <option value="MM">Birmania</option>
+                                    <option value="BO">Bolivia</option>
+                                    <option value="BA">Bosnia y Herzegovina</option>
+                                    <option value="BW">Botswana</option>
+                                    <option value="BR">Brasil</option>
+                                    <option value="BN">Brunei</option>
+                                    <option value="BG">Bulgaria</option>
+                                    <option value="BF">Burkina Faso</option>
+                                    <option value="BI">Burundi</option>
+                                    <option value="BT">Bután</option>
+                                    <option value="CV">Cabo Verde</option>
+                                    <option value="KH">Camboya</option>
+                                    <option value="CM">Camerún</option>
+                                    <option value="CA">Canadá</option>
+                                    <option value="TD">Chad</option>
+                                    <option value="CL">Chile</option>
+                                    <option value="CN">China</option>
+                                    <option value="CY">Chipre</option>
+                                    <option value="VA">Ciudad del Vaticano (Santa Sede)</option>
+                                    <option value="CO">Colombia</option>
+                                    <option value="KM">Comores</option>
+                                    <option value="CG">Congo</option>
+                                    <option value="CD">Congo, República Democrática del</option>
+                                    <option value="KR">Corea</option>
+                                    <option value="KP">Corea del Norte</option>
+                                    <option value="CI">Costa de Marfíl</option>
+                                    <option value="CR">Costa Rica</option>
+                                    <option value="HR">Croacia (Hrvatska)</option>
+                                    <option value="CU">Cuba</option>
+                                    <option value="DK">Dinamarca</option>
+                                    <option value="DJ">Djibouti</option>
+                                    <option value="DM">Dominica</option>
+                                    <option value="EC">Ecuador</option>
+                                    <option value="EG">Egipto</option>
+                                    <option value="SV">El Salvador</option>
+                                    <option value="AE">Emiratos Árabes Unidos</option>
+                                    <option value="ER">Eritrea</option>
+                                    <option value="SI">Eslovenia</option>
+                                    <option value="ES">España</option>
+                                    <option value="US"  selected>Estados Unidos</option>
+                                    <option value="EE">Estonia</option>
+                                    <option value="ET">Etiopía</option>
+                                    <option value="FJ">Fiji</option>
+                                    <option value="PH">Filipinas</option>
+                                    <option value="FI">Finlandia</option>
+                                    <option value="FR">Francia</option>
+                                    <option value="GA">Gabón</option>
+                                    <option value="GM">Gambia</option>
+                                    <option value="GE">Georgia</option>
+                                    <option value="GH">Ghana</option>
+                                    <option value="GI">Gibraltar</option>
+                                    <option value="GD">Granada</option>
+                                    <option value="GR">Grecia</option>
+                                    <option value="GL">Groenlandia</option>
+                                    <option value="GP">Guadalupe</option>
+                                    <option value="GU">Guam</option>
+                                    <option value="GT">Guatemala</option>
+                                    <option value="GY">Guayana</option>
+                                    <option value="GF">Guayana Francesa</option>
+                                    <option value="GN">Guinea</option>
+                                    <option value="GQ">Guinea Ecuatorial</option>
+                                    <option value="GW">Guinea-Bissau</option>
+                                    <option value="HT">Haití</option>
+                                    <option value="HN">Honduras</option>
+                                    <option value="HU">Hungría</option>
+                                    <option value="IN">India</option>
+                                    <option value="ID">Indonesia</option>
+                                    <option value="IQ">Irak</option>
+                                    <option value="IR">Irán</option>
+                                    <option value="IE">Irlanda</option>
+                                    <option value="BV">Isla Bouvet</option>
+                                    <option value="CX">Isla de Christmas</option>
+                                    <option value="IS">Islandia</option>
+                                    <option value="KY">Islas Caimán</option>
+                                    <option value="CK">Islas Cook</option>
+                                    <option value="CC">Islas de Cocos o Keeling</option>
+                                    <option value="FO">Islas Faroe</option>
+                                    <option value="HM">Islas Heard y McDonald</option>
+                                    <option value="FK">Islas Malvinas</option>
+                                    <option value="MP">Islas Marianas del Norte</option>
+                                    <option value="MH">Islas Marshall</option>
+                                    <option value="UM">Islas menores de Estados Unidos</option>
+                                    <option value="PW">Islas Palau</option>
+                                    <option value="SB">Islas Salomón</option>
+                                    <option value="SJ">Islas Svalbard y Jan Mayen</option>
+                                    <option value="TK">Islas Tokelau</option>
+                                    <option value="TC">Islas Turks y Caicos</option>
+                                    <option value="VI">Islas Vírgenes (EEUU)</option>
+                                    <option value="VG">Islas Vírgenes (Reino Unido)</option>
+                                    <option value="WF">Islas Wallis y Futuna</option>
+                                    <option value="IL">Israel</option>
+                                    <option value="IT">Italia</option>
+                                    <option value="JM">Jamaica</option>
+                                    <option value="JP">Japón</option>
+                                    <option value="JO">Jordania</option>
+                                    <option value="KZ">Kazajistán</option>
+                                    <option value="KE">Kenia</option>
+                                    <option value="KG">Kirguizistán</option>
+                                    <option value="KI">Kiribati</option>
+                                    <option value="KW">Kuwait</option>
+                                    <option value="LA">Laos</option>
+                                    <option value="LS">Lesotho</option>
+                                    <option value="LV">Letonia</option>
+                                    <option value="LB">Líbano</option>
+                                    <option value="LR">Liberia</option>
+                                    <option value="LY">Libia</option>
+                                    <option value="LI">Liechtenstein</option>
+                                    <option value="LT">Lituania</option>
+                                    <option value="LU">Luxemburgo</option>
+                                    <option value="MK">Macedonia, Ex-República Yugoslava de</option>
+                                    <option value="MG">Madagascar</option>
+                                    <option value="MY">Malasia</option>
+                                    <option value="MW">Malawi</option>
+                                    <option value="MV">Maldivas</option>
+                                    <option value="ML">Malí</option>
+                                    <option value="MT">Malta</option>
+                                    <option value="MA">Marruecos</option>
+                                    <option value="MQ">Martinica</option>
+                                    <option value="MU">Mauricio</option>
+                                    <option value="MR">Mauritania</option>
+                                    <option value="YT">Mayotte</option>
+                                    <option value="MX">México</option>
+                                    <option value="FM">Micronesia</option>
+                                    <option value="MD">Moldavia</option>
+                                    <option value="MC">Mónaco</option>
+                                    <option value="MN">Mongolia</option>
+                                    <option value="MS">Montserrat</option>
+                                    <option value="MZ">Mozambique</option>
+                                    <option value="NA">Namibia</option>
+                                    <option value="NR">Nauru</option>
+                                    <option value="NP">Nepal</option>
+                                    <option value="NI">Nicaragua</option>
+                                    <option value="NE">Níger</option>
+                                    <option value="NG">Nigeria</option>
+                                    <option value="NU">Niue</option>
+                                    <option value="NF">Norfolk</option>
+                                    <option value="NO">Noruega</option>
+                                    <option value="NC">Nueva Caledonia</option>
+                                    <option value="NZ">Nueva Zelanda</option>
+                                    <option value="OM">Omán</option>
+                                    <option value="NL">Países Bajos</option>
+                                    <option value="PA">Panamá</option>
+                                    <option value="PG">Papúa Nueva Guinea</option>
+                                    <option value="PK">Paquistán</option>
+                                    <option value="PY">Paraguay</option>
+                                    <option value="PE">Perú</option>
+                                    <option value="PN">Pitcairn</option>
+                                    <option value="PF">Polinesia Francesa</option>
+                                    <option value="PL">Polonia</option>
+                                    <option value="PT">Portugal</option>
+                                    <option value="PR">Puerto Rico</option>
+                                    <option value="QA">Qatar</option>
+                                    <option value="UK">Reino Unido</option>
+                                    <option value="CF">República Centroafricana</option>
+                                    <option value="CZ">República Checa</option>
+                                    <option value="ZA">República de Sudáfrica</option>
+                                    <option value="DO">República Dominicana</option>
+                                    <option value="SK">República Eslovaca</option>
+                                    <option value="RE">Reunión</option>
+                                    <option value="RW">Ruanda</option>
+                                    <option value="RO">Rumania</option>
+                                    <option value="RU">Rusia</option>
+                                    <option value="EH">Sahara Occidental</option>
+                                    <option value="KN">Saint Kitts y Nevis</option>
+                                    <option value="WS">Samoa</option>
+                                    <option value="AS">Samoa Americana</option>
+                                    <option value="SM">San Marino</option>
+                                    <option value="VC">San Vicente y Granadinas</option>
+                                    <option value="SH">Santa Helena</option>
+                                    <option value="LC">Santa Lucía</option>
+                                    <option value="ST">Santo Tomé y Príncipe</option>
+                                    <option value="SN">Senegal</option>
+                                    <option value="SC">Seychelles</option>
+                                    <option value="SL">Sierra Leona</option>
+                                    <option value="SG">Singapur</option>
+                                    <option value="SY">Siria</option>
+                                    <option value="SO">Somalia</option>
+                                    <option value="LK">Sri Lanka</option>
+                                    <option value="PM">St Pierre y Miquelon</option>
+                                    <option value="SZ">Suazilandia</option>
+                                    <option value="SD">Sudán</option>
+                                    <option value="SE">Suecia</option>
+                                    <option value="CH">Suiza</option>
+                                    <option value="SR">Surinam</option>
+                                    <option value="TH">Tailandia</option>
+                                    <option value="TW">Taiwán</option>
+                                    <option value="TZ">Tanzania</option>
+                                    <option value="TJ">Tayikistán</option>
+                                    <option value="TF">Territorios franceses del Sur</option>
+                                    <option value="TP">Timor Oriental</option>
+                                    <option value="TG">Togo</option>
+                                    <option value="TO">Tonga</option>
+                                    <option value="TT">Trinidad y Tobago</option>
+                                    <option value="TN">Túnez</option>
+                                    <option value="TM">Turkmenistán</option>
+                                    <option value="TR">Turquía</option>
+                                    <option value="TV">Tuvalu</option>
+                                    <option value="UA">Ucrania</option>
+                                    <option value="UG">Uganda</option>
+                                    <option value="UY">Uruguay</option>
+                                    <option value="UZ">Uzbekistán</option>
+                                    <option value="VU">Vanuatu</option>
+                                    <option value="VE">Venezuela</option>
+                                    <option value="VN">Vietnam</option>
+                                    <option value="YE">Yemen</option>
+                                    <option value="YU">Yugoslavia</option>
+                                    <option value="ZM">Zambia</option>
+                                    <option value="ZW">Zimbabue</option>
+
+                                </select>
+                            </div><br>
+
+
+
+                            <label for="" class="radioButoonB">Por favor, indica los síntomas que presentas</label><br><br>
+                            
+                            <label for="fiebre" id="radioButoonC" >¿Tuviste Fiebre mayor a 38 grados?</label>
+                            Si <input type="radio" name="fiebre" id="siFiebre" value="si" onclick="cambioRadio()"> No <input type="radio" name="fiebre" id="noFiebre" value="no" onclick="cambioRadio()">
+                            <br><br>
+                            
+                            
+                            <label for="cabeza" id="radioButoonD" >¿Tuviste dolor de cabeza?</label>
+                            Si <input type="radio" name="cabeza" id="siCabeza" value="si" onchange="cambioRadio()"> No <input type="radio" name="cabeza" id="noCabezae" value="no" onchange="cambioRadio()">
+                            <br><br>
+                           
+                            
+                              <label for="tos" id="radioButoonE" >¿Tuviste tos persistente?</label>
+                            Si <input type="radio" name="tos" id="siTos" value="si" onchange="cambioRadio()"> No <input type="radio" name="tos" id="noTos" value="no" onchange="cambioRadio()">
+                            <br><br>
+                            
+                            
+                            <label for="garganta" id="radioButoonF" >¿Tuviste dolor garganta?</label>
+                            Si <input type="radio" name="garganta" id="siGarganta" value="si" onchange="cambioRadio()"> No <input type="radio" name="garganta" id="noGarganta" value="no" onchange="cambioRadio()">
+                            <br><br>
+                            
+                            
+                            <label for="combo2" id="radioButoonG"> ¿Tuviste Dificultad para respirar?</label>
+                            Si <input type="radio" name="combo2" id="siRespirar" value="si" onchange="cambiar(), cambioRadio()"> No <input type="radio" name="combo2" id="noRespirar" value="no" onchange="cambiar(), cambioRadio()"><br><br>
+                            
+
+                            <div class="direccion" id="direccion">
+                                <label for="nombre">Dirección</label><br>
+                                <input type="text" id="direccionFormato" name="direccion"></div>
+
+                         
+                           <div id="mensaje" class="error"></div>
+                           <div id="mensajeEnviado" class="error"></div>
+                           <div id="virusito"><i class="fas fa-virus"></i></div>
+                           <div id="mostrarCantidadSintomas" class="error">
+
+                           </div>
+                           </div>
+
+
+
+
+                            <div class="enviar">
+                                <input type="submit" value="Enviar Test" class="myButton" id="botonenvio">
+                            </div>
+                            
+                    </div>
+                </form>
+            </article>
+        </article>
+    </div>
+    <div class="contenedorPrecauciones">
+        <h2 class="tituloPrecauciones">Medidas de Precaución para prevenir COVID-19</h2>
+
+        <div class="grillaPrecauiciones">
+            <div class="precaucion1"><img src="img/14-lavarse-manos.png" alt="LavarseLasManos" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/16-tocar-nariz.png" alt="NoTocarseLaNariz" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/15-estornudar.png" alt="EstornidarEnElCodo" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/17-ventilar.png" alt="Ventilar" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/18-limpiar-objetos.png" alt="Limpiar" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/20-reducir-contacto.png" alt="ReducirContactoConLaGente" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/19-permanecer-domicilio.png" alt="PermanecerEnelDomicilio" class="imgPrecaucion"></div>
+            <div class="precaucion1"><img src="img/21-no-compartir-mate.png" alt="noCompartirMate" class="imgPrecaucion"></div>
+        </div>
+    </div>
+    <article class="hospitalesEspecializados">
+        <h2 class="tituloHospitales">Hospital más cercano especializado en COVID-19</h2>
+        <div class="fotoHospital">
+            <p class="datoHospital">Av. 25 de Mayo 1301-1367, Villa Lynch, Buenos Aires
+                Ubicado en: UNSAM Campus Miguelete
+                CFCG+42 Villa Lynch, Buenos Aires</p>
+            <img src="img/instituto.jpg" alt="Hospital" class="hospital">
+        </div>
+        <div class="mapaHospital"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105050.71970925624!2d-58.60425137795865!3d-34.63360996620652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7a745d27b35%3A0xf9d32a6d3cbf897a!2sInstituto%20de%20Investigaciones%20Biotecnol%C3%B3gicas!5e0!3m2!1ses-419!2sar!4v1589001417392!5m2!1ses-419!2sar" width="" height="" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="mapaGoogle"></iframe></div>
+    </article>
+<script src="js/testCovid.js"></script>
+
+
+</body>
+<footer>
+    <div class="footerText">
+        <p>Copyright ©</p>
+        <p>Raúl Tolentino - DNI: 27085532</p>
+        <p>Fernando Ferrari - DNI: 20610832</p>
+        <p>Realizada con HTML5, CSS3</p>
+        <p>2020 - Año de la Pandemima de Covid-19</p>
+    </div>
+    <div class="footerMenu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="enfermedades.html">ENFERMEDADES</a></li>
+            <li><a href="hosptalesDisponibles.html">HOSPITALES</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </div>
+    <div class="redes">
+        <div class="logoFace"><i class="fab fa-facebook-square fa-2x" style="color: #3386ba"> </i></div>
+        <p class="direccionFacebook">@RauFer_VR</p>
+
+        <br>
+        <div class="logoWS"><i class="fab fa-whatsapp fa-2x" style="color: greenyellow">
+            </i></div>
+        <p class="whattsap"> 11.3287.7722</p>
+    </div>
+</footer>
+
+</html>

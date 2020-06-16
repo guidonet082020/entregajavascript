@@ -1,0 +1,1148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ETIQUETAS GENERALES */
+body {
+    font-size: 90%;
+    font-family: 'Jost', sans-serif;
+}
+
+footer {
+    max-width: 95%;
+    background-color: #203d57;
+    margin-top: 0.5em;
+    border-radius: 1em;
+    padding: 0.5em;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 2em;
+    padding: .2em;
+}
+
+
+/* .CLASS */
+
+/* HEADER */
+
+.masInfo {
+    color: #fff;
+}
+
+.cabezera {
+    max-width: 100%;
+}
+
+.logoRF {
+    max-width: 85%;
+}
+
+.contenedorLogo {
+    text-align: center;
+    margin: 1%;
+}
+
+.contenedorMenu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorMenu a {
+    text-decoration: none;
+    background: linear-gradient(to bottom, rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    display: block;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 3em;
+    padding-top: 5%;
+
+}
+
+.contenedorMenu a:hover {
+    background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 3em;
+}
+
+
+.contenedorMenu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    padding: 0.0em;
+    display: block;
+    width: 24%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.buscador {
+    max-width: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ingresoDeDatos {
+    background-color: #e8eae9;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    height: 2em;
+}
+
+.lupa {
+    background-color: #c3c0c0;
+    width: 2em;
+    height: 2em;
+    padding: 0.4em;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* SECCIONES */
+
+.secciones1Enfermedades {
+
+    max-width: 95%;
+    margin: auto;
+    padding: 0em;
+
+}
+
+.secciones2Enfermedades {
+
+    max-width: 95%;
+    margin: auto;
+    padding: .5em;
+}
+
+.secciones3Enfermedades {
+
+    max-width: 95%;
+    margin: auto;
+    padding: .5em;
+}
+
+.secciones4Enfermedades {
+
+    max-width: 95%;
+    margin: auto;
+    padding: 1em;
+}
+
+.secciones5Enfermedades {
+
+    max-width: 95%;
+    margin: auto;
+    padding: .5em;
+}
+
+.secciones1Enfermedades .aSecciones {
+    background-color: rgb(105, 177, 239);
+    display: block;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+.secciones2Enfermedades .aSecciones {
+    background-color: rgb(105, 177, 239);
+    display: block;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+.secciones3Enfermedades .aSecciones {
+    background-color: rgb(105, 177, 239);
+    display: block;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+.secciones4Enfermedades .aSecciones {
+    background-color: rgb(105, 177, 239);
+    display: block;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+.secciones5Enfermedades .aSecciones {
+    background-color: rgb(105, 177, 239);
+    display: block;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.enfermedadesimagen {
+    width: 10em;
+    border-radius: 1em;
+}
+
+.pDeArticulosEnfermedades {
+    text-align: left;
+}
+
+
+
+
+
+
+.pDeArticulos {
+    font-size: 1em;
+}
+
+.hDeArticulos {
+    font-size: 1.3em;
+}
+
+
+
+/* ASIDE */
+
+.siTenes {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2em;
+    color: #fff;
+    margin-left: 3%;
+}
+
+.neon {
+    background: #000;
+
+    margin: auto;
+    border-radius: 1em;
+}
+
+.iconoTelefono {
+    width: 100%;
+    text-align: center;
+}
+
+.cientocuarentayocho {
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+    color: #fff;
+}
+
+
+
+
+/* FOOTER */
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+    display: none;
+}
+
+.footerMenu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+}
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8em;
+    color: #c7dff4;
+    padding: 5px 10px 10px 10px;
+    width: 100%;
+}
+
+
+
+.contenedorMenuWeb {
+    display: none;
+}
+
+
+
+
+
+
+
+.buscadorEnfermedades {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #ede8e8;
+
+    border-radius: .5em;
+}
+
+
+.lupaEnfermedades {
+    background-color: #69b1ef;
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+
+
+}
+
+
+.ingresoDeDatosEnfermedades {
+    height: 26px;
+    background-color: #e8eae9;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* SECCIONES */
+
+.aSecciones {
+    text-decoration: none;
+    color: #000;
+    transition: 1s;
+
+}
+
+
+
+
+.iconoSecciones {
+    max-width: 10%;
+    display: block;
+    margin: auto;
+
+}
+
+
+.pDeArticulos {
+    font-size: 1em;
+}
+
+.hDeArticulos {
+    font-size: 1.3em;
+}
+
+
+
+/* ASIDE */
+
+.siTenes {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2em;
+    color: #fff;
+    margin-left: 1%;
+}
+
+.neon {
+    background: #000;
+    max-width: 87%;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.iconoTelefono {
+    width: 100%;
+    text-align: center;
+}
+
+.cientocuarentayocho {
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+.footerMenu {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 10px;
+    padding: 5px 10px 10px 10px;
+    width: 25%;
+    display: none;
+}
+
+.footerMenu li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footerMenu a {
+    text-decoration: none;
+    color: #69b1ef;
+}
+
+.footerText {
+
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8em;
+    color: #c7dff4;
+    padding: 5px 10px 10px 10px;
+    width: 100%;
+}
+
+.whattsap {
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    color: #69b1ef;
+    font-weight: 600;
+    height: 10px;
+    line-height: 15px;
+    margin-right: 10%;
+}
+
+.direccionFacebook {
+    color: #69b1ef;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
+    margin-right: 20%;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-left: .5em;
+}
+
+.contenedorMenuWeb {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIAQUERY 47 -----------------------------------------*/
+
+@media screen and (min-width:47em) {
+
+    /* ETIQUETAS GENERALES*/
+    body,
+    header {
+        max-width: 100%;
+    }
+
+
+
+    /* HEADER */
+
+
+    .cabezera {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logoRF {
+        max-width: 100%;
+    }
+
+    .contenedorLogo {
+        text-align: center;
+        margin: 1%;
+        width: 20%;
+    }
+
+    .buscador {
+        max-width: 20%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .contenedorMenu {
+        display: none;
+    }
+
+    .contenedorMenuWeb {
+        display: flex;
+    }
+
+    .contenedorMenuWeb a {
+        text-decoration: none;
+        color: #69b1ef;
+        padding-top: 30%;
+        padding-bottom: 10%;
+        display: block;
+        width: 100%;
+    }
+
+    .contenedorMenuWeb a:hover {
+        background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+        color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    .enf {
+        background: linear-gradient(to bottom, rgba(65, 109, 147, 1), rgba(105, 177, 239, 0.4), rgba(105, 177, 239, 0.0));
+        color: #fff;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: block;
+        width: 100%;
+
+    }
+
+
+
+    .contenedorMenuWeb li {
+        list-style: none;
+        text-align: center;
+        font-family: 'Jost', sans-serif;
+        font-size: 90%;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        display: block;
+        width: 100%;
+    }
+
+    .contenedorMenuWeb ul {
+        display: flex;
+        justify-content: center;
+        width: 30em;
+    }
+
+
+    /* SECCIONES */
+    .gradiente {
+        width: 100%;
+        height: 1em;
+        background: linear-gradient(to bottom, rgba(100, 100, 100, 1), rgba(255, 255, 255, 1));
+
+    }
+
+
+
+
+    /* ---------------------------------------------- */
+
+    .col {
+        display: grid;
+
+        margin: auto;
+        grid-template-columns: repeat (1fr);
+        grid-template-rows: max-contains;
+
+
+    }
+
+    .h1 {
+        grid-column: 1 /4;
+        grid-row: 1;
+
+        margin-left: 2em;
+        margin-right: 2em;
+        border-radius: 1em;
+        height: 3.5em
+    }
+
+    .buscadorEnfermedades {
+        grid-column: 1 / 4;
+        grid-row: 2;
+        margin-top: 1em;
+
+
+    }
+
+
+
+    .secciones1Enfermedades {
+
+        grid-column: 2 /2;
+        margin: 2% 2% 2% 2%;
+        background-color: rgb(105, 177, 239);
+        border-radius: 1em;
+
+    }
+
+    .secciones2Enfermedades {
+
+        grid-column: 3 /4;
+        margin: 2% 2% 2% 2%;
+        background-color: rgb(105, 177, 239);
+        border-radius: 1em;
+
+    }
+
+    .secciones3Enfermedades {
+
+        grid-column: 2 /4;
+        margin: 2% 2% 2% 2%;
+        background-color: rgb(105, 177, 239);
+        border-radius: 1em;
+
+
+    }
+
+
+    .secciones4Enfermedades {
+
+        grid-column: 2 /2;
+        margin: 2% 2% 2% 2%;
+        background-color: rgb(105, 177, 239);
+        border-radius: 1em;
+
+
+    }
+
+    .secciones5Enfermedades {
+
+        grid-column: 3 /4;
+        margin: 2% 2% 2% 2%;
+        background-color: rgb(105, 177, 239);
+        border-radius: 1em;
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .aSecciones {
+        text-decoration: none;
+    }
+
+    .iconoSecciones {
+        max-width: 20%;
+        display: block;
+        margin: auto;
+    }
+
+
+
+
+    /* FOOTER */
+
+    .footerMenu {
+        font-family: 'Jost', sans-serif;
+        font-size: .8em;
+        padding: 1% 2%;
+        width: 20%;
+        display: flex;
+        text-align: center;
+    }
+
+    .footerMenu a {
+        text-decoration: none;
+        color: #69b1ef;
+    }
+
+    .footerMenu a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+
+    .redes {
+        width: 28%;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 0;
+        height: 6em;
+        margin-left: 0;
+    }
+
+
+    .footerText {
+        font-family: 'Jost', sans-serif;
+        font-size: .8em;
+        color: #69b1ef;
+        padding: 1% 2%;
+        width: 40%;
+    }
+
+    .direccionFacebook {
+        color: #69b1ef;
+        font-weight: 500;
+        margin-left: 1em;
+        font-family: 'Jost', sans-serif;
+        height: .8em;
+        font-size: 1em;
+        line-height: 1em;
+        width: 60%;
+        margin-right: 0;
+    }
+
+    .whattsap {
+        font-family: 'Jost', sans-serif;
+        font-size: 1em;
+        color: #69b1ef;
+        font-weight: 900;
+        margin-left: .8em;
+        height: .8em;
+        line-height: 1em;
+        width: 70%;
+        margin-right: 0;
+    }
+
+
+
+
+    .fab {
+        margin-left: 40%;
+    }
+
+    .logoFace {
+        width: 30%;
+    }
+
+    .logoWS {
+        width: 20%;
+    }
+
+
+    /* ASIDE */
+
+    .neon {
+        color: #e0dfdc;
+        background: #556677;
+        letter-spacing: .1em;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+    }
+
+
+
+    /* MEDIAQUERY 60 -----------------------------------------*/
+    @media screen and (min-width:60em) {
+
+        /* ETIQUETA GENERAL */
+
+        body,
+        header {
+            max-width: 100%;
+        }
+
+        .cabezera {
+            max-width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+        /* HEADER */
+
+        .logoRF {
+            max-width: 100%;
+        }
+
+        .contenedorLogo {
+            text-align: center;
+            margin: 1%;
+            width: 20%;
+        }
+
+        .buscador {
+            max-width: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .lupa {
+            background-color: #c3c0c0;
+            width: 2em;
+            height: 2em;
+            padding: 0.4em;
+            box-sizing: border-box;
+            border-bottom-right-radius: 10px;
+        }
+
+        .contenedorMenu {
+            display: none;
+        }
+
+        .contenedorMenuWeb {
+            display: flex;
+        }
+
+        .contenedorMenuWeb a {
+            text-decoration: none;
+            color: #69b1ef;
+            padding-top: 30%;
+            padding-bottom: 10%;
+            display: block;
+            width: 100%;
+        }
+
+        .contenedorMenuWeb a:hover {
+            background-color: rgb(105, 177, 239);
+            color: #fff;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            display: block;
+            width: 100%;
+        }
+
+        .contenedorMenuWeb li {
+            list-style: none;
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            font-size: 100%;
+            display: flex;
+            justify-content: center;
+            max-width: 100%;
+            display: block;
+            width: 100%;
+        }
+
+        .contenedorMenuWeb ul {
+            display: flex;
+            justify-content: center;
+            width: 40em;
+        }
+
+        /* SECCIONES */
+
+        .secciones1 {
+            background: linear-gradient(to bottom, rgba(105, 177, 239, 0.31), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81));
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            height: 90%;
+            margin-top: 0;
+            margin-bottom: 0;
+            width: 33%;
+
+        }
+
+        .secciones1:hover {
+            background: linear-gradient(to bottom, rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.81), rgba(105, 177, 239, 0.1));
+            text-align: center;
+            font-family: 'Jost', sans-serif;
+            height: 90%;
+            margin-top: 0;
+            margin-bottom: 0;
+            width: 33%;
+        }
+
+        .aSecciones {
+            text-decoration: none;
+        }
+
+
+
+
+        /* ---------------------------------------------- */
+
+        .cincoSecciones {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1f 1fr;
+            grid-template-rows: max-contains;
+            margin-left: 3em;
+            margin-right: 3em;
+
+
+            margin-bottom: 1em;
+
+
+
+
+
+
+
+
+
+        }
+
+        .buscadorEnfermedades {
+            grid-column: 1 / 6;
+            grid-row: 2;
+
+
+        }
+
+
+
+        .h1 {
+            grid-column: 1 /6;
+            grid-row: 1;
+            border-radius: 1em;
+
+
+        }
+
+        .secciones1Enfermedades {
+            grid-column: 1 /1;
+            grid-row: 3;
+            padding: 0;
+            background-color: rgb(105, 177, 239) border-radius: 1em;
+
+
+
+
+
+
+        }
+
+        .secciones2Enfermedades {
+
+            grid-column: 2 /2;
+            grid-row: 3;
+            padding: 0;
+            background-color: rgb(105, 177, 239) border-radius: 1em;
+        }
+
+        .secciones3Enfermedades {
+
+            grid-column: 3 /3;
+            grid-row: 3;
+            padding: 0;
+            background-color: #69b1ef border-radius: 1em;
+
+        }
+
+        .secciones4Enfermedades {
+
+            grid-column: 4 /4;
+            grid-row: 3;
+            padding: 0;
+            background-color: rgb(105, 177, 239) border-radius: 1em;
+        }
+
+        .secciones5Enfermedades {
+
+            grid-column: 5 /5;
+            grid-row: 3;
+            padding: 0;
+            background-color: rgb(105, 177, 239) border-radius: 1em;
+        }
+
+
+
+
+
+
+
+
+        /* ASIDE */
+
+        .siTenes {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Jost', sans-serif;
+            text-align: center;
+            font-weight: 900;
+            font-size: 1.8em;
+            color: #fff;
+            margin-left: 1%;
+        }
+
+        .neon {
+
+
+            margin: auto;
+            border-radius: 1em;
+
+
+            color: #e0dfdc;
+            background: #556677;
+            letter-spacing: .1em;
+            text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+        }
+
+    }
+
+    .iconoTelefono {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cientocuarentayocho {
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        text-align: center;
+        font-weight: 900;
+        font-size: 3em;
+        color: #fff;
+    }
+
+    /* FOOTER */
+
+    footer {
+        max-width: 90%;
+        background-color: #203d57;
+        margin-top: 0.5em;
+        border-radius: 1em;
+        padding: 0.5em 5em;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .fab {
+        margin-left: 40%;
+    }
+
+
+
+    /* MEDIAQUERY 70 -----------------------------------------*/
+    @media screen and (min-width:70em) {
+
+        /* ETIQUETA GENEARAL */
+
+        body,
+        header {
+            max-width: 100%;
+        }
+
+        /* SECCIONES */
+
+
+
+        .aSecciones {
+            text-decoration: none;
+        }
+
+
+
+
+        /* FOOTER */
+
+        footer {
+            max-width: 90%;
+            background-color: #203d57;
+            margin-top: 0.5em;
+            border-radius: 1em;
+            padding: 0.5em 6em;
+            box-sizing: border-box;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .direccionFacebook {
+            color: #69b1ef;
+            font-weight: 500;
+            margin-left: 0;
+            font-family: 'Jost', sans-serif;
+            height: .8em;
+            font-size: 1.4em;
+            width: 70%;
+        }
+
+        .whattsap {
+            font-family: 'Jost', sans-serif;
+            font-size: 1.3em;
+            color: #69b1ef;
+            font-weight: 900;
+            margin-left: 0em;
+            height: .8em;
+            line-height: 1em;
+            width: 70%;
+        }
+
+        .fab {
+            margin-left: 40%;
+        }
